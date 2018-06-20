@@ -4,4 +4,13 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scene/hirayamap.unity
+    guid: 42d652dd8c2a74e9aac40ba7a897cbaf
+  - enabled: 1
+    path: Assets/Scene/suzakumon.unity
+    guid: a38c13766b290437b8834359b740af06
+  - enabled: 1
+    path: Assets/Scene/testanimation.unity
+    guid: 02f88be75d3974cbd90f2003fed80839
