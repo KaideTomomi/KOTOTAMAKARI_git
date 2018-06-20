@@ -24,8 +24,8 @@ public class CameraFollowCollision : MonoBehaviour {
 	}
 	void OnCollisionEnter(Collision col)
 	{
-		Debug.Log("Enter");
-		Debug.Log(col.transform.gameObject.name);
+		//Debug.Log("Enter");
+		//Debug.Log(col.transform.gameObject.name);
 
 		gameObject.transform.position = lastPosition;
 		colliding = true;
@@ -33,14 +33,14 @@ public class CameraFollowCollision : MonoBehaviour {
 
 	void OnCollisionExit(Collision col)
 	{
-		Debug.Log("Exit");
-		Debug.Log(col.transform.gameObject.name);
+		//Debug.Log("Exit");
+		//Debug.Log(col.transform.gameObject.name);
 		colliding = false;
 	}
 	void OnCollisionStay(Collision col)
 	{
-		Debug.Log("Stay");
-		Debug.Log(col.transform.gameObject.name);
+		//Debug.Log("Stay");
+		//Debug.Log(col.transform.gameObject.name);
 		gameObject.transform.position = lastPosition;
 	}
 
