@@ -105,7 +105,7 @@ public class SceneNavigator : SingletonMonoBehaviour<SceneNavigator> {
 	/// </summary>
 	public void Change(string sceneName, float fadeTime = FADE_TIME){
 		if(IsFading){
-			Debug.LogError("フェード中です！");
+			//Debug.LogError("フェード中です！");
 			return;
 		}
 

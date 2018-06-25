@@ -46,7 +46,7 @@ public class SingletonMonoBehaviour<T> : MonoBehaviourWithInit where T : MonoBeh
 		}
 
 		//自分じゃない場合は重複して存在しているので、エラー
-		Debug.LogError (typeof(T) + " is duplicated");
+		//Debug.LogError (typeof(T) + " is duplicated");
 	}
 
 }
