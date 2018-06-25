@@ -1,17 +1,17 @@
 fileFormatVersion: 2
-guid: 93a475ac603ee42f29b76aa49755d67d
-timeCreated: 1529456810
+guid: 6a76f62e1d7c74ed5b1c0531f8c36a93
+timeCreated: 1529886679
 licenseType: Free
 ModelImporter:
   serializedVersion: 21
   fileIDToRecycleName:
-    100000: mapkari-16
+    100000: idostage-2
     100002: //RootNode
-    400000: mapkari-16
+    400000: idostage-2
     400002: //RootNode
-    2300000: mapkari-16
-    3300000: mapkari-16
-    4300000: mapkari-16
+    2300000: idostage-2
+    3300000: idostage-2
+    4300000: idostage-2
   materials:
     importMaterials: 1
     materialName: 0

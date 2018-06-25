@@ -10,7 +10,7 @@ public class touch : MonoBehaviour {
 	// public GameObject tama;
 
 	// Use this for initialization
-	void Start () {
+	/*void Start () {
 		
 	}
 
@@ -47,5 +47,5 @@ public class touch : MonoBehaviour {
 	}
 	void OnMouseUp(){
 		//ßDebug.Log("Mouse up up!");
-	}
+	}*/
 }
