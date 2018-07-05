@@ -2542,7 +2542,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   playerObject: {fileID: 894897633}
-  offsetX: 0
+  offsetX: 10
   offsetY: 0
   offsetZ: 10
 --- !u!4 &1225174340
