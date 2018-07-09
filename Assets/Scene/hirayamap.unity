@@ -505,7 +505,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   target: {fileID: 894897633}
-  offset: {x: 0, y: 28, z: 30}
+  offset: {x: 0, y: 35, z: 45}
   back: 0.2
 --- !u!135 &115938505
 SphereCollider:
