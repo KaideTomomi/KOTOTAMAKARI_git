@@ -199,6 +199,9 @@ public class WebCamTextureToCloudVision : MonoBehaviour {
 	string[] hiragana_array = new string[]{ "あ", "い", "う", "え", "お", "か", "き", "く", "け", "こ", "さ", "し", "す", "せ", "そ", "た", "ち", "つ", "て", "と", "な", "に", "ぬ", "ね", "の", "は", "ひ", "ふ", "へ", "ほ", "ま", "み", "む", "め", "も", "や", "ゆ", "よ", "ら", "り", "る", "れ", "ろ", "て", "わ", "を", "ん"};
 	public GameObject[] hiraganaCharacter;
 	bool[] instanciated ;
+	public GameObject parentObject;
+	GameObject Youkai2Dobj;
+
 
 	// Use this for initialization
 	void Start () {
@@ -330,7 +333,9 @@ public class WebCamTextureToCloudVision : MonoBehaviour {
 							// https://qiita.com/Teach/items/c28b4fe5ca8dc4c83e26
 							if (j < 4) {
 								if (instanciated [j] == false) {
-									GameObject.Instantiate (hiraganaCharacter [j]);
+									Youkai2Dobj =  (GameObject)Instantiate (hiraganaCharacter [j],this.transform.position + new Vector3(0.0f,0.0f,1.0f),Quaternion.Euler(-270,0,0));
+									Youkai2Dobj.transform.parent = parentObject.transform;
+										
 									instanciated [j] = true;
 								}
 							}

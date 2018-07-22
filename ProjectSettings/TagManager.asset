@@ -5,6 +5,8 @@ TagManager:
   serializedVersion: 2
   tags:
   - ExitTrigger
+  - ClicEvent
+  - CameraYoukai
   layers:
   - Default
   - TransparentFX
