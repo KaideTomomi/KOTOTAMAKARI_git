@@ -17,3 +17,6 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scene/idonaka.unity
     guid: 85a0b33cfd9504652aa8ea698dca1065
+  - enabled: 1
+    path: Assets/Scene/togetukyou.unity
+    guid: ae11a6a6bcbbc4ed18572db098024fba
