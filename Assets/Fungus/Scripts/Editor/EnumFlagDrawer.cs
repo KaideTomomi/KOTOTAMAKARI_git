@@ -8,7 +8,7 @@ using UnityEditor;
 using UnityEngine;
 
 namespace Fungus
-{
+{/*
     [CustomPropertyDrawer(typeof(EnumFlagAttribute))]
     public class EnumFlagDrawer : PropertyDrawer
     {
@@ -44,5 +44,5 @@ namespace Fungus
             }
             return (T)reflectionTarget;
         }
-    }
+    }*/
 }
